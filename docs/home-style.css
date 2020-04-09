@@ -1,0 +1,54 @@
+
+.navbar{
+    background-color: rgb(40, 30, 90);
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 5vw;
+
+}
+.navbarLogo{
+    display: flex;
+
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2vh 5vw;
+    text-decoration: none;
+}
+
+.book{
+    display: flex;
+    flex-flow: column;
+}
+
+.book:hover .append{
+    visibility: visible;
+}
+
+a.active{
+    background-color: black;
+    
+}
+
+.append{
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    visibility: hidden;
+    top: 8.5vh;
+    width: auto;
+    background-color: rgb(40, 30, 90);
+}
+
+.navigation:hover{
+    background-color: rgb(50, 40, 100);
+}
+
+body{
+    margin: 0 auto;
+}
